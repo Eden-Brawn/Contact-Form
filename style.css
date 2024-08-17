@@ -5,3 +5,12 @@ body{
     background-color: hsl(169, 82%, 27%);
     color: white;
 }
+input{
+    width: 15em;
+    height: 2em;
+}
+form{
+    background-color: white;
+    width: fit-content;
+    
+}

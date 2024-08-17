@@ -24,7 +24,14 @@ input[type="radio"], input[type="checkbox"]{
 form{
     background-color: white;
     width: fit-content;
-    
+    display: grid;
+    grid-area: "heading ."
+                "name name"
+                "email email"
+                "query query"
+                "message message"
+                "consent consent"
+                "submit submit";
 }
 h1{
     color: hsl(187, 24%, 22%);

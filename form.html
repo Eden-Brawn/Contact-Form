@@ -12,23 +12,36 @@
 </head>
 <body>
     <form action="">
-        <h1>Contact Me</h1>
-        <label for="firstname">First Name *</label>
-        <input type="text" name="firstname">
-        <label for="lastname">Last Name *</label>
-        <input type="text" name="lastname"><br><br>
-        <label for="emailaddress">Email Address *</label>
-        <input type="email" name="emailaddress"><br><br>
-        <label>Query Type *</label>
-        <input type="radio" id="generalenquiry" name="generalenquiry" value="General Enquiry">
-        <label for="generalenquiry">General Enquiry</label>
-        <input type="radio" id="supportrequest" name="supportrequest" value="Support Request">
-        <label for="supportrequest">Support Request</label><br><br>
-        <label for="message">Message *</label>
-        <textarea name="message"></textarea><br><br>
-        <input type="checkbox" id="checkbox"><label for="checkbox">I consent to being contacted by the team *</label><br><br>
-        <input type="submit" value="Submit" id="submit">
-
+        <div class="heading">
+            <h1>Contact Me</h1>
+        </div>
+        <div class="name">
+            <label for="firstname">First Name *</label>
+            <input type="text" name="firstname">
+            <label for="lastname">Last Name *</label>
+            <input type="text" name="lastname"><br><br>
+        </div>
+        <div class="email">
+            <label for="emailaddress">Email Address *</label>
+            <input type="email" name="emailaddress"><br><br>
+        </div>
+        <div class="query">
+            <label>Query Type *</label>
+            <input type="radio" id="generalenquiry" name="generalenquiry" value="General Enquiry">
+            <label for="generalenquiry">General Enquiry</label>
+            <input type="radio" id="supportrequest" name="supportrequest" value="Support Request">
+            <label for="supportrequest">Support Request</label><br><br>
+        </div>
+        <div class="message">
+            <label for="message">Message *</label>
+            <textarea name="message"></textarea><br><br>
+        </div>
+        <div class="consent">
+            <input type="checkbox" id="checkbox"><label for="checkbox">I consent to being contacted by the team *</label><br><br>
+        </div>
+        <div class="submit">
+            <input type="submit" value="Submit" id="submit">
+        </div>
     </form>
 </body>
 </html>

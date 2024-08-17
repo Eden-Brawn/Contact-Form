@@ -8,9 +8,29 @@ body{
 input{
     width: 15em;
     height: 2em;
+    border-color: hsl(186, 15%, 59%);
 }
 form{
     background-color: white;
     width: fit-content;
     
+}
+h1{
+    color: hsl(187, 24%, 22%);
+}
+label{
+    color: hsl(187, 24%, 22%);
+    font-size: 16px;
+}
+label{
+        font-family: "Karla", sans-serif;
+        font-optical-sizing: auto;
+        font-weight: 400;
+        font-style: normal;
+}
+h1 {
+    font-family: "Karla", sans-serif;
+        font-optical-sizing: auto;
+        font-weight: 700;
+        font-style: normal;
 }

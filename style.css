@@ -11,6 +11,16 @@ input{
     border: 0.1em solid hsl(186, 15%, 59%);
     border-radius: 0.5em;
 }
+input[type="radio"], input[type="checkbox"]{
+    width: 15em;
+    height: 2em;
+    border: 0.1em solid hsl(186, 15%, 59%);
+    border-radius: 0.5em;
+}
+#generalenquiry{
+    border: 0.1em solid hsl(186, 15%, 59%);
+    border-radius: 0.5em;
+}
 form{
     background-color: white;
     width: fit-content;

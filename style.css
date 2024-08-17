@@ -26,12 +26,17 @@ form{
     width: fit-content;
     display: grid;
     grid-area: "heading ."
-                "name name"
-                "email email"
-                "query query"
-                "message message"
+                "namelabel namelabel"
+                "nameinput nameinput"
+                "emaillabel emaillabel"
+                "emailinput emailinput"
+                "querylabel querylabel"
+                "queryinput queryinput"
+                "messagelabel messagelabel"
+                "messageinput messageinput"
                 "consent consent"
                 "submit submit";
+ 
 }
 h1{
     color: hsl(187, 24%, 22%);

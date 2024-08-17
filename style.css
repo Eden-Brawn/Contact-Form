@@ -12,8 +12,8 @@ input{
     border-radius: 0.5em;
 }
 input[type="radio"], input[type="checkbox"]{
-    width: 15em;
-    height: 2em;
+    width: 11em;
+    height: 1.5em;
     border: 0.1em solid hsl(186, 15%, 59%);
     border-radius: 0.5em;
 }
@@ -36,7 +36,10 @@ form{
                 "messageinput messageinput"
                 "consent consent"
                 "submit submit";
- 
+    padding-top: 1em;
+    padding-bottom: 2em;
+    padding-left: 2em;
+    padding-right: 2em;
 }
 h1{
     color: hsl(187, 24%, 22%);

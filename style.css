@@ -1,6 +1,7 @@
 body{
     background-color: hsl(148, 38%, 91%);
 }
+
 #submit{
     background-color: hsl(169, 82%, 27%);
     color: white;
@@ -23,7 +24,8 @@ input[type="radio"], input[type="checkbox"]{
 }
 form{
     background-color: white;
-    width: fit-content;
+    max-width: fit-content;
+    max-height: fit-content;
     display: grid;
     grid-area: "heading ."
                 "namelabel namelabel"
@@ -36,13 +38,21 @@ form{
                 "messageinput messageinput"
                 "consent consent"
                 "submit submit";
-    padding-top: 1em;
+    padding-top: 2em;
     padding-bottom: 2em;
     padding-left: 2em;
     padding-right: 2em;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.queryinput{
+    display: inline;
 }
 h1{
     color: hsl(187, 24%, 22%);
+    margin-top: 0;
 }
 label{
     color: hsl(187, 24%, 22%);
@@ -59,4 +69,8 @@ h1 {
         font-optical-sizing: auto;
         font-weight: 700;
         font-style: normal;
+}
+fieldset{
+    border-radius: 0.5em;
+   
 }

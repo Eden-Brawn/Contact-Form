@@ -23,20 +23,20 @@ input[type="radio"]{
     width:20%;
 }
 fieldset{
-    width: 40%;
+    width: 43.9%;
 }
 #generalenquiry{
     border: 0.1em solid hsl(186, 15%, 59%);
     border-radius: 0.5em;
 }
-#supportequiry{
+#supportrequest{
     border: 0.1em solid hsl(186, 15%, 59%);
     border-radius: 0.5em;
 }
 .generalenquiry{
     width: 50%;
 }
-.supportequiry{
+.supportrequest{
     width: 50%;
 }
 #submit{
@@ -83,6 +83,7 @@ h1 {
 fieldset{
     border-radius: 0.5em;
     display: inline-block;
+    margin: 0;
 }
 input, textarea{
     font-family: inherit;

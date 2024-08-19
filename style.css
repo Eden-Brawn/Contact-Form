@@ -82,7 +82,7 @@ h1 {
 }
 fieldset{
     border-radius: 0.5em;
-   
+    display: inline-block;
 }
 input, textarea{
     font-family: inherit;

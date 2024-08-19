@@ -8,8 +8,8 @@ body{
 }
 input{
     width: 15em;
-    height: 2em;
-    border: 0.1em solid hsl(186, 15%, 59%);
+    height: 2.5em;
+    border: 0.01em solid hsl(186, 15%, 59%);
     border-radius: 0.5em;
     width: 10em;
 }
@@ -21,16 +21,17 @@ input[type="radio"], input[type="checkbox"]{
 }
 input[type="radio"]{
     width:20%;
+    margin-top: 0.1em;
 }
 fieldset{
     width: 43.9%;
 }
 #generalenquiry{
-    border: 0.1em solid hsl(186, 15%, 59%);
+    border: 0.01em solid hsl(186, 15%, 59%);
     border-radius: 0.5em;
 }
 #supportrequest{
-    border: 0.1em solid hsl(186, 15%, 59%);
+    border: 0.01em solid hsl(186, 15%, 59%);
     border-radius: 0.5em;
 }
 .generalenquiry{
@@ -49,6 +50,10 @@ fieldset{
 }
 textarea{
     width: 100%;
+    outline: none;
+    resize: none;
+    border: 0.01em solid hsl(186, 15%, 59%);
+    border-radius: 0.5em;
 }
 form{
     background-color: white;
@@ -89,6 +94,7 @@ fieldset{
     border-radius: 0.5em;
     display: inline-block;
     margin: 0;
+    border: 0.01em solid hsl(186, 15%, 59%);
 }
 input, textarea{
     font-family: inherit;

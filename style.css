@@ -105,6 +105,7 @@ form{
     left: 50%;
     transform: translate(-50%, -50%);
     border-radius: 1em;
+    z-index: 2;
 }
 h1{
     color: hsl(187, 24%, 22%);
@@ -158,4 +159,23 @@ input, textarea{
 }
 .checkboxlabel{
     padding-left: 1em;
+}
+.alert{
+    background-color: hsl(187, 24%, 22%);
+    color: white;
+    border-radius: 0.5em;
+    width: fit-content;
+    font-family: "Karla", sans-serif;/*https://fonts.google.com/selection/embed*/
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    padding: 1.25em;
+    z-index: 1;
+}
+h2{
+    margin: 0;
+}
+p{
+    margin: 0;
+    margin-top: 0.5em;
 }

@@ -1,5 +1,5 @@
 function submit(){
-    
+    window.alert('Message Sent\! \n Thanks for completing the form. We\'ll be in touch soon\!');
 }
 
 function submitButtonListener(){

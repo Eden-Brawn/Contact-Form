@@ -41,8 +41,8 @@ input[type='radio']:before {/*before https://stackoverflow.com/questions/2316763
     transform: translate(-0.025em, -0.025em);
   }
 input[type="radio"]:checked:before{
-    background: radial-gradient(hsl(187, 24%, 22%) 50%, white 50%);
-    border: 0.1em solid hsl(187, 24%, 22%);
+    background: radial-gradient(#1b846b 50%, white 50%);
+    border: 0.1em solid #1b846b;
 }
 
 input[type="text"], input[type="email"]{

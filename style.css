@@ -25,6 +25,35 @@ input[type="radio"], input[type="checkbox"]{
 input[type="radio"]{
     width:20%;
     margin-top: 0.1em;
+    appearance: none;
+    width: 1em;
+    height: 1em;
+    border: 0.1em solid hsl(186, 15%, 59%);
+    transform: translateY(0.15em);/*Appearance and transform from https://moderncss.dev/pure-css-custom-styled-radio-buttons/*/
+    
+}
+input[type='radio']:before {/*before https://stackoverflow.com/questions/23167637/is-it-possible-to-change-the-color-of-selected-radio-buttons-center-circle*/
+    content:'';
+    display:block;
+    width:70%;
+    height:70%;   
+    border-radius:50%; 
+    transform: translate(0.15em, 0.15em); 
+  }
+input[type="radio"]:checked:before{
+    background: green;
+    
+   
+}
+input[type="checkbox"]{
+    width:20%;
+    margin-top: 0.1em;
+    appearance: none;
+    width: 1em;
+    height: 1em;
+    border: 0.1em solid hsl(186, 15%, 59%);
+    transform: translateY(0.15em);/*Appearance and transform from https://moderncss.dev/pure-css-custom-styled-radio-buttons/*/
+    border-radius: 1em;
 }
 input[type="text"], input[type="email"]{
     padding: 1em;
@@ -53,6 +82,9 @@ fieldset{
         font-optical-sizing: auto;
         font-weight: 400;
         font-style: normal;
+}
+#submit:hover{
+    background-color:#063f36;
 }
 textarea{
     width: 100%;
@@ -133,4 +165,7 @@ input, textarea{
 }
 .emailaddress{
     width: 100%;
+}
+.checkboxlabel{
+    padding-left: 1em;
 }

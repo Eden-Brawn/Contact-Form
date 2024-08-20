@@ -13,6 +13,9 @@ input{
     border-radius: 0.5em;
     width: 10em;
 }
+input:hover{
+    border: 0.01em solid hsl(187, 24%, 22%);
+}
 input[type="radio"], input[type="checkbox"]{
     height: 1em;
     width: 1em;
@@ -22,6 +25,9 @@ input[type="radio"], input[type="checkbox"]{
 input[type="radio"]{
     width:20%;
     margin-top: 0.1em;
+}
+input[type="text"], input[type="email"]{
+    padding: 1em;
 }
 fieldset{
     width: 43.9%;

@@ -171,6 +171,7 @@ input, textarea{
     font-style: normal;
     padding: 1.25em;
     z-index: 1;
+    display: none;
 }
 h2{
     margin: 0;
